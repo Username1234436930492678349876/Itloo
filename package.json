@@ -1,0 +1,10 @@
+{
+  "name": "quran-word-sync-maker-v7-2",
+  "private": true,
+  "version": "7.2.0",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/sync.test.mjs && node tests/quran.test.mjs && node tests/fonts.test.mjs && node tests/static.test.mjs",
+    "check": "node --check src/main.js && node --check src/quran.js && node --check src/sync.js && npm test"
+  }
+}
